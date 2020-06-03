@@ -1,0 +1,56 @@
+*{
+    font-family: 'Metropolis Regular';
+}
+.maintenance-container{
+    background: #0000BB;
+}
+.logo-shade{
+    position: absolute;
+    right: 5%;;
+    top: 25%;
+    opacity: 0.03;
+}
+.text-down, .text-up{
+    letter-spacing: 2px;
+    color: #E5E8F1;
+}
+.text-up{
+    font-family: 'Metropolis Regular';
+    font-weight: 300;
+}
+.text-down{
+    font-family: 'Metropolis ExtraBold';
+    font-weight: 800;
+}
+
+span{
+    color: #E5E8F19f;
+}
+
+.social-media a{
+    font-size:1.6rem;
+    transition:0.3s ease;
+    color: #E5E8F19f;
+    position: relative;
+    z-index: 100;
+}
+.social-media a:before{
+    width: 150%;
+    height: 85%;
+    content: "";
+    background: #FFFFFF3F;
+    top: 0%;
+    left: -25%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 100px;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+.social-media a:hover{
+    color: #FFFF;
+}
+
+.social-media a:hover:before{
+    opacity: 1;
+}

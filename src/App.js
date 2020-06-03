@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./styles/app.css";
+import "./styles/Maintenance.css";
+import "./App.css";
+import "remixicon/fonts/remixicon.css";
+
+//Imagenes
+import Logo from "./logo.svg";
+import LogoShade from './assets/img/logoshade.svg'
+import imgComputer from './assets/img/computer.svg'
+
+//Componentes
+import Maintenance from "./components/Maintenance";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Maintenance 
+        imgComputer={imgComputer}
+        logo={Logo} 
+        logoShade={LogoShade}>
+      </Maintenance>
     </div>
   );
 }
