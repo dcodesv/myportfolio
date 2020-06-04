@@ -4,7 +4,7 @@ function Maintenance(props) {
   const { logo, logoShade, imgComputer } = props;
   const social = {
     github: "https://github.com/dcodesv",
-    linkedin: "https://twitter.com/diegocodesv",
+    linkedin: "https://www.linkedin.com/in/diegocodesv/",
     twitter: "https://twitter.com/diegocodesv"
   }
   return (
