@@ -1,18 +1,64 @@
 *{
     font-family: 'Metropolis Regular';
 }
-.maintenance-container{
+
+.color-mode{
     background: #0000BB;
 }
+.color-mode .top-bar #logo, .color-mode #logo-shade{
+    fill:#FFF 
+}
+.color-mode .top-bar #Capa_2{
+    fill:#FFF 
+}
+.color-mode .text-down, .color-mode .text-up{
+    color: #E5E8F1;
+}
+.color-mode span, .color-mode .social-media a, .color-mode .toggle-button{
+    color: #E5E8F19f;
+}
+.color-mode .social-media a::before{
+    background: #FFFFFF3F;
+}
+.color-mode .social-media a:hover, .color-mode .toggle-button:hover{
+    color: #FFFF;
+}
+
+
+.light-mode{
+    background: #E5E8F1;
+}
+.light-mode .top-bar #logo, .light-mode #logo-shade{
+    fill:#0000BB 
+}
+.light-mode .text-down, .light-mode .text-up{
+    color: #101215;
+}
+.light-mode span, .light-mode .social-media a, .light-mode .toggle-button{
+    color: #000000BF;
+}
+.light-mode .social-media a::before{
+    background: #0000BB15;
+}
+.light-mode .social-media a:hover, .light-mode .toggle-button:hover{
+    color: #0000BB;
+}
+
+
+
+
 .logo-shade{
     position: absolute;
     right: 5%;;
     top: 25%;
-    opacity: 0.03;
+    opacity: 0.05;
+    z-index: 0;
+}
+.computer{
+    z-index: 1;
 }
 .text-down, .text-up{
     letter-spacing: 2px;
-    color: #E5E8F1;
 }
 .text-up{
     font-family: 'Metropolis Regular';
@@ -23,14 +69,9 @@
     font-weight: 800;
 }
 
-span{
-    color: #E5E8F19f;
-}
-
 .social-media a{
     font-size:1.6rem;
     transition:0.3s ease;
-    color: #E5E8F19f;
     position: relative;
     z-index: 100;
 }
@@ -38,7 +79,6 @@ span{
     width: 150%;
     height: 85%;
     content: "";
-    background: #FFFFFF3F;
     top: 0%;
     left: -25%;
     position: absolute;
@@ -47,10 +87,6 @@ span{
     opacity: 0;
     transition: 0.3s ease;
 }
-.social-media a:hover{
-    color: #FFFF;
-}
-
 .social-media a:hover:before{
     opacity: 1;
 }

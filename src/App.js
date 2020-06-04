@@ -5,8 +5,6 @@ import "./App.css";
 import "remixicon/fonts/remixicon.css";
 
 //Imagenes
-import Logo from "./logo.svg";
-import LogoShade from './assets/img/logoshade.svg'
 import imgComputer from './assets/img/computer.svg'
 
 //Componentes
@@ -16,9 +14,7 @@ function App() {
   return (
     <div>
       <Maintenance 
-        imgComputer={imgComputer}
-        logo={Logo} 
-        logoShade={LogoShade}>
+        imgComputer={imgComputer}>
       </Maintenance>
     </div>
   );
