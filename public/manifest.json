@@ -1,11 +1,11 @@
 {
   "short_name": "DCODESV",
-  "name": "This is my Portfolio",
+  "name": "Diegocodesv",
   "icons": [
     {
-      "src": "dcodesv-app.png",
+      "src": "dcodesv-app.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/png"
+      "type": "image/x-icon"
     },
     {
       "src": "dcodesv-app.png",
