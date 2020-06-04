@@ -1,20 +1,20 @@
 {
-  "short_name": "dcodesv",
+  "short_name": "DCODESV",
   "name": "This is my Portfolio",
   "icons": [
     {
-      "src": "logoshadeblue.svg",
+      "src": "dcodesv-app.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/svg"
+      "type": "image/png"
     },
     {
-      "src": "logoshadeblue.svg",
-      "type": "image/svg",
+      "src": "LogoDiego2020.png",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logoshadeblue.svg",
-      "type": "image/svg",
+      "src": "LogoDiego2020.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
