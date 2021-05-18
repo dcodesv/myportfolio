@@ -120,9 +120,9 @@ function Maintenance(props) {
           <h1 className="text-up text-center text-2xl md:text-3xl lg:text-right lg:text-4xl">
             Hello, I'm web
           </h1>
-          <h1 className="text-down text-center text-4xl md:text-5xl lg:text-right lg:text-6xl">
+          <h2 className="text-down text-center text-4xl md:text-5xl lg:text-right lg:text-6xl">
             Developer.
-          </h1>
+          </h2>
           <span className="text-base mt-4 lg:mt-6 mb-2">Follow me</span>
           <div className="social-media flex">
             <a href={social.twitter} className="mr-6 relative">
@@ -138,7 +138,7 @@ function Maintenance(props) {
         </div>
         <img
           src={imgComputer}
-          alt=""
+          alt="Dcodesv"
           className="computer w-1/2 md:w-1/3 lg:w-1/3 lg:ml-16 mt-8 lg:mt-0"
         />
       </div>

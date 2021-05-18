@@ -1,9 +1,9 @@
 *{
-    font-family: 'Metropolis Regular';
+    font-family: 'Montserrat';
 }
 
 .color-mode{
-    background: #0000BB;
+    background: #090940;
 }
 .color-mode .top-bar #logo, .color-mode #logo-shade{
     fill:#FFF 
@@ -61,11 +61,11 @@
     letter-spacing: 2px;
 }
 .text-up{
-    font-family: 'Metropolis Regular';
+    font-family: 'Montserrat';
     font-weight: 300;
 }
 .text-down{
-    font-family: 'Metropolis ExtraBold';
+    font-family: 'Montserrat';
     font-weight: 800;
 }
 
