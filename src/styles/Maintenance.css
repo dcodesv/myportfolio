@@ -1,5 +1,8 @@
 *{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
+}
+body,html{
+    background: #E5E8F1;
 }
 
 .color-mode{
@@ -51,7 +54,7 @@
     position: absolute;
     right: 5%;;
     top: 25%;
-    opacity: 0.05;
+    opacity: 0.03;
     z-index: 0;
 }
 .computer{
@@ -62,11 +65,11 @@
 }
 .text-up{
     font-family: 'Montserrat';
-    font-weight: 300;
+    font-weight: 400;
 }
 .text-down{
     font-family: 'Montserrat';
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .social-media a{
