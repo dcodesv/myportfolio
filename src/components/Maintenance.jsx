@@ -2,6 +2,7 @@ import React from "react";
 
 function Maintenance(props) {
   const { imgComputer } = props;
+  const urlFigma = 'https://www.figma.com/proto/x8I3v0iZSHM5kIxkPQeUsW/Rebranding-Web-Portfolio-V2?node-id=124%3A36&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=124%3A36&show-proto-sidebar=1'
 
   const social = {
     github: "https://github.com/dcodesv",
@@ -106,7 +107,7 @@ function Maintenance(props) {
         <h1 className='font-bold mb-4 text-xl'>Portafolio en mantenimiento</h1>
         <p className='font-medium text-gray-600 w-8/12 text-center text-sm'>Estoy trabajando en una actualización mayor para mi portafolio en la cual incluiré algunos de mis proyectos y un par de cosas geniales.</p>
         <p className="font-medium text-gray-600 w-8/12 text-center text-sm mt-3">Por el momento, puedes echar un vistazo en el siguiente link: </p>
-        <a className='flex justify-center items-center mt-10 mb-20 py-3 px-4 bg-indigo-700 hover:bg-indigo-900 rounded-md text-white font-normal' href='https://www.figma.com/proto/Ctf66ztit6oty5gHtD3AVb/Rebranding-Web-Portfolio?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A2'>Portafolio en Figma <i className="ri-links-fill ml-2"></i></a>
+        <a className='flex justify-center items-center mt-10 mb-20 py-3 px-4 bg-indigo-700 hover:bg-indigo-900 rounded-md text-white font-normal' href={urlFigma}>Portafolio en Figma <i className="ri-links-fill ml-2"></i></a>
       </div>
     </div>
   );
